@@ -1,0 +1,10 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=5035
+
+Whitespace might be one of the most difficult programming languages to read. Therefor a syntax highlight for Vim proves extremely useful.
+
+For more information on the Whitespace, see
+http://compsoc.dur.ac.uk/whitespace/
+or
+http://en.wikipedia.org/wiki/Whitespace_%28programming_language%29
+
+It is important that you use Ctrl-L frequently, since Vim is not too happy about syntax'es that includes newlines.
