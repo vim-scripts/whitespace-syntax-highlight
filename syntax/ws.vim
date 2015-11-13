@@ -1,4 +1,4 @@
-" Whitespace Syntax Highlight 1.0, October 2014
+" Whitespace Syntax Highlight 1.1, November 2015
 " Vim Syntax Highlight for the programming language Whitespace
 " For more information on the language, see
 " http://compsoc.dur.ac.uk/whitespace/
@@ -11,16 +11,22 @@
 "
 " Errors (illegal opcodes) are highlighted in red.
 "
-" !! To refresh syntax highlighting, use Ctrl-L frequently !!
-"
-" Usage:
-"   source this file.
+" Installation:
+" 1) copy this file (ws.vim) to your vim syntax file dir (i.e. ~/.vim/syntax/)
+" 2) add this line to your .vimrc
+"       au BufNewFile,BufRead *.ws set filetype=ws
 " Author:
 "   Rolf Asmund
 "
 
 syn clear
-set ts=1
+"set tab size to 1
+setl ts=1
+" disable all indent
+setl noai nocin nosi inde=
+" sync fromstart to get more accurate syntax highlight.
+syntax sync fromstart
+
 syn match wsNumber '.*' contained contains=wsNumberSpace,wsNumberTab
 syn match wsLabel '.*' contained contains=wsLabelSpace,wsLabelTab
 

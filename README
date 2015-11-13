@@ -5,6 +5,5 @@ Whitespace might be one of the most difficult programming languages to read. The
 For more information on the Whitespace, see
 http://compsoc.dur.ac.uk/whitespace/
 or
-http://en.wikipedia.org/wiki/Whitespace_%28programming_language%29
+http://en.wikipedia.org/wiki/Whitespace_(programming_language)
 
-It is important that you use Ctrl-L frequently, since Vim is not too happy about syntax'es that includes newlines.
